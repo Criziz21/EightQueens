@@ -3,9 +3,11 @@
 </template>
 
 <script>
-
+    alert("hello")
 </script>
 
 <style>
-
+    #app {
+        background-color: red;
+    }
 </style>

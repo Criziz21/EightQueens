@@ -1,5 +1,8 @@
-// import './bootstrap';
-import { createApp } from "vue";
+import { createApp, Vue } from "vue";
 import Welcome from "./Welcome.vue";
+// import './bootstrap';
+const MyComponent = Vue.extend({
+    template: '<div>This is my component!</div>',
+  });
 
-createApp(Welcome).mount("#app");
+  createApp({ render: () => h(Welcome) }).mount("#app");

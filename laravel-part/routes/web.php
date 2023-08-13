@@ -15,3 +15,5 @@ use App\Http\Controllers\testController;
 */
 
 Route::get('/', [testController::class, 'store']);
+
+Route::view('upload', 'upload');
